@@ -1,3 +1,38 @@
+
+
+# Focus Space React App
+
+This is the frontend for the Focus Space app. It is a React app that uses several api endpoints to get data from the backend. 
+It is a single page app that uses React Router to navigate between pages.
+The following api endpoints are used:
+- Open Weather Map API to get weather data for the user's location.
+- Unsplash API to get a random image to display on the Dashboard.
+- Youtube Data API to search for videos and display them in a list. 
+- Quotes API to get a random quote to display on the Dashboard.
+
+# Demo Screenshots
+
+### Dashboard
+![Dashboard](demo.png)
+### Video Search
+![Video Search](demo_search.png)
+### Register
+![Register](demo_register.png)
+### Login
+![Login](demo_login.png)
+### Edit Profile
+![Edit Profile](demo_edit_profile.png)
+
+### Profile
+![Profile](demo_profile.png)
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
