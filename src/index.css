@@ -1,0 +1,88 @@
+
+
+
+/*html content margin and background*/
+html {
+  /*font-size: small;*/
+  font-family: 'Roboto', sans-serif;;
+}
+
+.wd-image-bg {
+  /*background-image: url("http://www.74211.com/wallpaper/picture_big/Wonderful+Days_wallpapers_2013-top-10-scenery-images-10.jpg");*/
+}
+
+
+
+.hidden {
+  display: none;
+}
+
+.wd-text-gray {
+  color: rgba(255, 255, 255, 1);
+}
+/*light blue*/
+.wd-bg-lb {
+  background: rgba(0, 0, 0, 0.8);
+  /*background-color:rgba(39, 93, 245, 0.12)*/
+
+}
+
+.wd-bg-lg {
+  background-color: rgba(134, 141, 163, 0.12);
+  opacity: 0.8;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600&display=swap');
+
+/*noinspection CssInvalidAtRule*/
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*#toggle {*/
+/*  text-align: center;*/
+/*}*/
+
+
+.nav>li>a:focus, .nav>li>a:hover {
+  background-color: #eee;
+}
+
+
+#navigation {
+  position: absolute;
+  z-index: 5;
+}
+
+#dashboard {
+  z-index: -1;
+}
+
+
+.video-item {
+  display: flex !important;
+  align-items: center !important;
+  cursor: pointer;
+}
+
+.video-item.item img {
+  max-width: 180px;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
